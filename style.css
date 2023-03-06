@@ -11,7 +11,6 @@ body {
 }
 
 #fancy-story {
-    color: red;
     background: radial-gradient(89.53% 2108.04% at 92.4% 50.82%, #FF1E1E 0%, #F19239 14.06%, #FF7D05 64.58%, #F13939 100%)
         /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
     ;
@@ -150,7 +149,7 @@ body {
     text-align: center;
     bottom: 1vw;
     font-weight: 100;
-    color: #8e8e8e;
+    color: #f1f1f1;
     font-size: 1.4vw;
     text-decoration: none;
 }
@@ -162,11 +161,11 @@ body {
 
 #contact-text {
     text-decoration: none;
-    color: #8e8e8e;
+    color: #f1f1f1;
 }
 #contact-text:visited {
     text-decoration: none;
-    color: #8e8e8e;
+    color: #f1f1f1;
 }
 
 @media (max-device-width: 600px) {
@@ -290,7 +289,7 @@ body {
         text-align: center;
         bottom: 3vw;
         font-weight: 100;
-        color: #8e8e8e;
+        color: #f1f1f1;
         font-size: 3.5vw;
     }
     
