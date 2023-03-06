@@ -250,4 +250,15 @@ body {
         margin-top: 5vh;
     }
 
+    #about-us-text {
+        width: 80%;
+        font-weight: 200;
+        overflow-y: scroll;
+        height: 45vh;
+        background-color: rgba(21, 7, 0, 0.6);
+        padding: 3vw 2vw;
+        border-radius: 3vw;
+        font-size: 4vw;
+        margin: 0;
+    }
 }
