@@ -34,7 +34,7 @@ body {
 #logo {
     position: absolute;
     left: 0px;
-    height: 120px;
+    height: 12vw;
 }
 
 .center-content {
@@ -143,6 +143,30 @@ body {
     padding: 3vw 2vw;
     border-radius: 3vw;
     font-size: 1.2vw;
+}
+
+#contact-us {
+    position: absolute;
+    text-align: center;
+    bottom: 1vw;
+    font-weight: 100;
+    color: #8e8e8e;
+    font-size: 1.4vw;
+    text-decoration: none;
+}
+
+#contact-us:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#contact-text {
+    text-decoration: none;
+    color: #8e8e8e;
+}
+#contact-text:visited {
+    text-decoration: none;
+    color: #8e8e8e;
 }
 
 @media (max-device-width: 600px) {
@@ -260,4 +284,14 @@ body {
         border-radius: 3vw;
         font-size: 4vw;
     }
+
+    #contact-us {
+        position: absolute;
+        text-align: center;
+        bottom: 7vw;
+        font-weight: 100;
+        color: #8e8e8e;
+        font-size: 3.5vw;
+    }
+    
 }
