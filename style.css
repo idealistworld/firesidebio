@@ -23,7 +23,8 @@ body {
 
 #fancy-yours {
     background: radial-gradient(89.53% 2108.04% at 92.4% 50.82%, #F19239 0%, #FFE27D 55.21%, #FF7D05 100%)
-        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    ;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -54,7 +55,7 @@ body {
 
 #paragraph-text {
     font-size: 2vw;
-    font-weight: 300;
+    font-weight: 200;
     width: 60%;
     color: rgb(220, 220, 220);
     margin-top: 5vh;
@@ -115,7 +116,7 @@ body {
 }
 
 .inner2 {
-    -webkit-animation: pulse2 3s linear 1s infinite;
+    -webkit-animation: pulse2 5s linear 1s infinite;
 }
 
 @-webkit-keyframes pulse2 {
@@ -132,7 +133,6 @@ body {
     }
 
 }
-
 
 @media (max-device-width: 600px) {
 
@@ -171,7 +171,7 @@ body {
 
     #paragraph-text {
         font-size: 4vw;
-        font-weight: 300;
+        font-weight: 200;
         width: 80%;
         color: white;
         margin-top: 5vh;
@@ -186,15 +186,14 @@ body {
     .cool-button {
         background-color: black;
         color: white;
-        border: 0.1vw solid white;
+        border: 0.2vw solid rgb(255, 123, 0);
         font-family: 'Poppins', sans-serif;
         font-weight: 500;
         font-size: 3.5vw;
         margin: 0 2.5vw;
         padding: 2.7vw 10vw;
         border-radius: 10vw;
-        -webkit-animation: pulse 2s linear 1s infinite;
-
+        -webkit-animation: pulse 5s linear 1s infinite;
     }
 
     .cool-button:hover {
@@ -202,29 +201,39 @@ body {
         cursor: pointer;
     }
 
+    .inner2 {
+        -webkit-animation: pulse2 5s linear 1s infinite;
+    }
+
     @-webkit-keyframes pulse {
         0% {
-            box-shadow: 0 0 8px #fff705, inset 0 0 8px #fff705;
+            box-shadow: 0 0 20px #fff705, inset 0 0 20px #fff705;
         }
 
         50% {
-            box-shadow: 0 0 8px #ff0000, inset 0 0 8px #ff0000;
+            box-shadow: 0 0 20px #ff0000, inset 0 0 20px #ff0000;
         }
 
         100% {
-            box-shadow: 0 0 8px #fff705, inset 0 0 8px #fff705;
+            box-shadow: 0 0 20px #fff705, inset 0 0 20px #fff705;
         }
 
     }
 
-    .inner {
-        background-color: transparent;
-        width: 100px;
-        height: 100px;
-        border-radius: 50px;
-        box-shadow: 0 0 8px #ea4c89, inset 0 0 8px #ea4c89;
-        -webkit-animation: pulse 3s linear 1s infinite;
+    @-webkit-keyframes pulse2 {
+        0% {
+            box-shadow: 0 0 20px #ff0000, inset 0 0 20px #ff0000;
+        }
+
+        50% {
+            box-shadow: 0 0 20px #fff705, inset 0 0 20px #fff705;
+        }
+
+        100% {
+            box-shadow: 0 0 20px #ff0000, inset 0 0 20px #ff0000;
+        }
     }
+
 
     .mobile-buttons {
         margin-top: 5vh;
