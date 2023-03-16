@@ -71,6 +71,7 @@ body {
     width: auto;
 }
 
+
 .cool-button {
     background-color: black;
     color: white;
@@ -133,15 +134,23 @@ body {
 
 }
 
-#about-us-text {
+.outer {
+    background-color: rgba(21, 7, 0, 0.6);
     width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3vw;
+}
+
+#about-us-text {
+    width: 100%;
     font-weight: 300;
     overflow-y: scroll;
     height: 30vh;
-    background-color: rgba(21, 7, 0, 0.6);
-    padding: 3vw 2vw;
-    border-radius: 3vw;
+    padding: 1vw;
     font-size: 1.2vw;
+    margin: 1vw;
 }
 
 #contact-us {
@@ -273,13 +282,24 @@ body {
         margin-top: 2.2vh;
     }
 
-    #about-us-text {
+    .outer {
+        background-color: rgba(21, 7, 0, 0.6);
         width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 7vw;
+        height: 45vh;
+
+    }
+
+    #about-us-text {
+        width: 100%;
         font-weight: 200;
         overflow-y: scroll;
-        height: 45vh;
-        background-color: rgba(21, 7, 0, 0.6);
-        padding: 3vw 2vw;
+        padding-bottom: 10vw;
+        padding-left: 4vw;
+        padding-right: 4vw;
         border-radius: 3vw;
         font-size: 4vw;
     }
