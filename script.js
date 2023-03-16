@@ -4,6 +4,7 @@ function lol (){
     document.getElementById("paragraph-text").style.visibility = "hidden";
     document.querySelector(".mobile-buttons").style.flexDirection = "column";
     document.querySelector(".mobile-buttons").style.justifyContent = "center";
+    document.querySelector("#title-text").style.marginBottom = "0";
     document.querySelector(".mobile-buttons").style.alignItems = "center";
     document.getElementById("title-text").style.marginTop = "14vh";
 }
