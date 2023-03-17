@@ -8,3 +8,14 @@ function lol (){
     document.querySelector(".mobile-buttons").style.alignItems = "center";
     document.getElementById("title-text").style.marginTop = "14vh";
 }
+
+function changestuff () {
+    document.getElementById("title-text").innerHTML = "Application <span id = 'fancy-story' style = 'display: block'>Submitted!</span>";
+    document.querySelector(".mobile-buttons").innerHTML = "";
+}
+
+function submitted () {
+    document.getElementById("title-text").innerHTML = "Waiting...";
+    setTimeout(changestuff, 2000)
+}
+
