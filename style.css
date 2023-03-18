@@ -220,6 +220,14 @@ input:hover {
     cursor: pointer;
 }
 
+#time-input {
+    margin: 0;
+    height: 0;
+    width: 100%;
+    padding: 0;
+    opacity: 0;
+}
+
 @media (max-device-width: 600px) {
 
     #logo {
