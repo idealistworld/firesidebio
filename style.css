@@ -30,20 +30,18 @@ body {
     text-fill-color: transparent;
 }
 
-#logo {
-    position: absolute;
-    left: 0px;
-    height: 10vw;
+#header-logo {
+    height: 100px;
+    width: 150px;
+    margin-left: 30px;
 }
 
 #events {
-    position: absolute;
-    right: 3vw;
-    top: 2.3vw;
-    font-size: 2vw;
+    font-size: 20px;
     color: rgb(209, 209, 209);
     font-weight: 300;
-    z-index: 3;
+    text-decoration: none;
+    margin-right: 50px;
 }
 
 #events-link:hover {
@@ -53,8 +51,14 @@ body {
 
 #events:visited {
     color: white;
+    text-decoration: none;
     cursor: pointer;
 }
+
+#events-link {
+    text-decoration: none;
+}
+
 
 a:hover {
     cursor: pointer;
@@ -74,7 +78,7 @@ a:hover {
 #title-text {
     font-size: 6vw;
     font-weight: 900;
-    margin-top: 140px;
+    margin-top: 70px;
 }
 
 #speaker-title-text {
@@ -273,12 +277,19 @@ input:hover {
     margin-top: 30px;
 }
 
-@media (max-device-width: 600px) {
+#header-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 3;
+}
 
-    #logo {
-        position: absolute;
-        left: 0px;
-        height: 11vh;
+@media (max-device-width: 600px) {
+    #header-logo {
+        height: 200px;
+        width: 300px;
+        margin-left: 50px;
     }
 
     body {
@@ -306,8 +317,7 @@ input:hover {
         font-size: 12.9vw;
         padding: 0 10vw;
         font-weight: 900;
-        margin-top: 300px;
-
+        margin-top: 100px;
     }
 
     #paragraph-text {
@@ -376,10 +386,8 @@ input:hover {
     }
 
     #events {
-        position: absolute;
-        right: 3vh;
-        top: 2.4vh;
-        font-size: 2.3vh;
+        font-size: 40px;
+        margin-right: 30px;
         color: rgb(209, 209, 209);
         font-weight: 300;
         z-index: 3;

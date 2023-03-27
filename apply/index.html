@@ -4,9 +4,6 @@
     <link rel="icon" type="image/x-icon" href="../favicon.png">
 </head>
 
-<a href="https://fireside.bio"><img id="logo" src="../logo.svg"></a>
-
-<a href="https://partiful.com/e/Syp7avUG1uEy2n06ND2c" id = "events-link" target = "_blank"><h1 id="events">Events</h1></a>
 
 <script type="module">
     // Import the functions you need from the SDKs you need
@@ -35,34 +32,40 @@
     const submitButton = document.querySelector("#submit")
     const scriptURL = 'https://script.google.com/macros/s/AKfycbzFGNNkkDOlCJFdm9X11lFOzmQnvgpkm-Nfyh06bk-Z9o0gxxkssTFARcQ8QnOrwdieKA/exec'
     form.addEventListener('submit', e => {
-      submitButton.disabled = true
-      e.preventDefault()
-      let requestBody = new FormData(form)
-      fetch(scriptURL, { method: 'POST', body: requestBody })
-        .then(response => {
-          alert('Success!', response)
-          submitButton.disabled = false
-        })
-        .catch(error => {
-          alert('Error!', error.message)
-          submitButton.disabled = false
-        }
-        )
+        submitButton.disabled = true
+        e.preventDefault()
+        let requestBody = new FormData(form)
+        fetch(scriptURL, { method: 'POST', body: requestBody })
+            .then(response => {
+                alert('Success!', response)
+                submitButton.disabled = false
+            })
+            .catch(error => {
+                alert('Error!', error.message)
+                submitButton.disabled = false
+            }
+            )
     })
 </script>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZSN1YB1WZQ"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-ZSN1YB1WZQ');
+    gtag('config', 'G-ZSN1YB1WZQ');
 </script>
 
 <body>
+    <div id="header-section">
+        <a href="https://fireside.bio"><img id="header-logo" src="../logo.svg"></a>
+        <a id="events-link" target="_blank">
+            <h1 id="events">Events</h1>
+        </a>
+    </div>
     <div class="center-content">
-        <h1 id="title-text" style = "margin-bottom: 2vw;">Apply <span id="fancy-story">now</span>.</h1>
+        <h1 id="title-text" style="margin-bottom: 2vw;">Apply <span id="fancy-story">now</span>.</h1>
         <div class="mobile-buttons" id="paragraph-container">
             <div id='input-field-container'>
                 <form class="input-form" method="POST"
@@ -72,9 +75,9 @@
                     <input class="text-input" placeholder="University/Company" type="text" name="University">
                     <input class="text-input" placeholder="Email" type="text" name="Email">
                     <input class="text-input" placeholder="Linkedin URL" type="text" name="LinkedIn">
-                    <input class="text-input" id ="time-input" type="text" name="TimeSubmitted">
+                    <input class="text-input" id="time-input" type="text" name="TimeSubmitted">
                     <br>
-                    <input class = "cool-button" id="submit-button" value="Submit" type="submit">
+                    <input class="cool-button" id="submit-button" value="Submit" type="submit">
                 </form>
             </div>
             <iframe name="iframe" style="position: absolute; visibility: hidden"></iframe>
