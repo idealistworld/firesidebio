@@ -6,7 +6,9 @@
 
 <a href="https://fireside.bio"><img id="logo" src="./logo.svg"></a>
 
-<a id = "events-link" target = "_blank"><h1 id="events">Events</h1></a>
+<a id="events-link" target="_blank">
+    <h1 id="events">Events</h1>
+</a>
 
 <script type="module">
     // Import the functions you need from the SDKs you need
@@ -38,19 +40,34 @@
                 id="fancy-yours">yours</span>.</h1>
         <div class="mobile-buttons" id="paragraph-container">
             <a href="./apply">
-                <button id="join" class="cool-button inner2">
+                <button id="join" class="cool-button inner1">
                     Apply Now
                 </button>
             </a>
-            <button id="about" class="cool-button" onclick="lol()">
-                About us
-            </button>
+            <a href="./about">
+                <button id="about" class="cool-button inner2">
+                    About Us
+                </button>
+            </a>
         </div>
         <div id="paragraph-container">
             <p id="paragraph-text">Fireside.bio provides students with the opportunity to hear the unique
                 stories of professionals in the tech and venture capital space.</p>
         </div>
-        <p id="contact-us"><a href="mailto:firesidebio@gmail.com" id = "contact-text">Contact Us</a></p>
+        <h1 id="speaker-title-text"><span id="fancy-yours"> Past Speakers</span></h1>
+        <p id="speaker-paragraph-text">We've had some cool speakers in the past.  We have them every week.  Here is a section showing them off.</p>
+        <div id = "past-speaker-gallery">
+            <img class = "past-speaker-logo" src = "./companies/amazon.png">
+            <img class = "past-speaker-logo" src = "./companies/microsoft.png">
+            <img class = "past-speaker-logo" src = "./companies/electronicarts.png">
+            <img class = "past-speaker-logo" src = "./companies/listen.png">
+        </div>
+        <a href="mailto:firesidebio@gmail.com">
+            <button id="become-a-speaker" class="cool-button inner2">
+                Become a speaker
+            </button>
+        </a>
+        <p id="contact-us"><a href="mailto:firesidebio@gmail.com" id="contact-text">Contact Us</a></p>
     </div>
 </body>
 

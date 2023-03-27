@@ -52,8 +52,8 @@ body {
 }
 
 #events:visited {
-   color: white;
-   cursor: pointer;
+    color: white;
+    cursor: pointer;
 }
 
 a:hover {
@@ -65,7 +65,6 @@ a:hover {
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
     text-align: center;
     color: white;
     flex-direction: column;
@@ -74,6 +73,21 @@ a:hover {
 #title-text {
     font-size: 6vw;
     font-weight: 900;
+    margin-top: 140px;
+}
+
+#speaker-title-text {
+    font-size: 4vw;
+    font-weight: 900;
+    margin-top: 80px;
+}
+
+#speaker-paragraph-text {
+    font-size: 2vw;
+    font-weight: 200;
+    width: 60%;
+    color: rgb(220, 220, 220);
+    margin-top: 0;
 }
 
 #paragraph-text {
@@ -84,15 +98,29 @@ a:hover {
     margin-top: 5vh;
 }
 
+
 #paragraph-container {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
+#past-speaker-gallery {
+    width: 65vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 #join-us {
     height: 10vw;
     width: auto;
+}
+
+.past-speaker-logo {
+    height: 75px;
+    width: 150px;
+    margin: 0 10px;
 }
 
 .cool-button {
@@ -157,6 +185,10 @@ a:hover {
 
 }
 
+.about-us {
+    flex-direction: column;
+}
+
 #about-us-text {
     width: 50%;
     font-weight: 300;
@@ -169,13 +201,12 @@ a:hover {
 }
 
 #contact-us {
-    position: absolute;
     text-align: center;
-    bottom: 1vw;
     font-weight: 100;
     color: #f1f1f1;
     font-size: 1.4vw;
     text-decoration: none;
+    padding: 60px 0px;
 }
 
 #contact-us:hover {
@@ -187,6 +218,7 @@ a:hover {
     text-decoration: none;
     color: #f1f1f1;
 }
+
 #contact-text:visited {
     text-decoration: none;
     color: #f1f1f1;
@@ -228,6 +260,18 @@ input:hover {
     opacity: 0;
 }
 
+#about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#become-a-speaker {
+    margin-top: 30px;
+}
+
 @media (max-device-width: 600px) {
 
     #logo {
@@ -251,7 +295,6 @@ input:hover {
         height: 100%;
         display: flex;
         align-items: center;
-        justify-content: center;
         text-align: center;
         color: white;
         flex-direction: column;
@@ -261,6 +304,8 @@ input:hover {
         font-size: 12.9vw;
         padding: 0 10vw;
         font-weight: 900;
+        margin-top: 300px;
+
     }
 
     #paragraph-text {
@@ -328,11 +373,6 @@ input:hover {
         }
     }
 
-
-    .mobile-buttons {
-        margin-top: 2.2vh;
-    }
-
     #events {
         position: absolute;
         right: 3vh;
@@ -342,15 +382,15 @@ input:hover {
         font-weight: 300;
         z-index: 3;
     }
-    
+
     #events-link:hover {
         cursor: pointer;
         opacity: 0.7;
     }
-    
+
     #events:visited {
-       color: white;
-       cursor: pointer;
+        color: white;
+        cursor: pointer;
     }
 
     #about-us-text {
@@ -365,12 +405,11 @@ input:hover {
     }
 
     #contact-us {
-        position: absolute;
         text-align: center;
-        bottom: 3vw;
         font-weight: 100;
         color: #f1f1f1;
         font-size: 3.5vw;
+        padding: 60px 0px;
     }
 
     .text-input {
@@ -388,7 +427,7 @@ input:hover {
         margin: 3vw 0;
         width: 90%;
     }
-    
+
     #input-field-container {
         width: 80vw;
     }
@@ -396,5 +435,32 @@ input:hover {
     #submit-button {
         margin-top: 5vh;
         width: 90%;
-    }   
+    }
+
+    #speaker-title-text {
+        font-size: 10vw;
+        font-weight: 900;
+        margin-top: 80px;
+    }
+
+    #speaker-paragraph-text {
+        font-size: 4vw;
+        font-weight: 200;
+        width: 80%;
+        color: rgb(220, 220, 220);
+        margin-top: 0;
+        font-weight: 200;
+    }
+
+    #past-speaker-gallery {
+        width: 80vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .past-speaker-logo {
+        height: 150px;
+        width: 300px;
+        margin: 0 30px;
+    }
 }
