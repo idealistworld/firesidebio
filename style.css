@@ -67,6 +67,7 @@ a:hover {
     align-items: center;
     text-align: center;
     color: white;
+    overflow-y: scroll;
     flex-direction: column;
 }
 
@@ -284,10 +285,11 @@ input:hover {
         background: url("./background.png") center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
-        -o-background-size: cover;
         background-size: cover;
+        position: static;
         margin: 0;
         font-family: 'Poppins', sans-serif;
+        overflow-y: scroll;
     }
 
     .center-content {
