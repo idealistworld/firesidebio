@@ -10,7 +10,13 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-
+#header-section {
+    width: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 3;
+}
 
 #fancy-story {
     background: radial-gradient(89.53% 2108.04% at 92.4% 50.82%, #FF1E1E 0%, #F19239 14.06%, #FF7D05 64.58%, #F13939 100%)
