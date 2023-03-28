@@ -3,6 +3,7 @@ document.onload = link.setAttribute("href", "https://partiful.com/e/PaNxD3o0fBrA
 
 function changestuff() {
     document.getElementById("title-text").innerHTML = "Application <span id = 'fancy-story' style = 'display: block'>Submitted!</span>";
+    document.getElementById("title-text").style.marginTop = "30vh";
     document.querySelector(".mobile-buttons").innerHTML = "";
 }
 
@@ -38,6 +39,7 @@ usaTime += " EST"
 function submitted() {
     document.getElementById("title-text").innerHTML = "Waiting...";
     document.getElementById("time-input").setAttribute('value', usaTime)
+
     setTimeout(changestuff, 2000);
 }
 

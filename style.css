@@ -288,6 +288,10 @@ input:hover {
     margin-top: 30px;
 }
 
+.selector-desktop {
+    width: 84%;
+}
+
 @media (max-device-width: 600px) {
     #header-logo {
         height: 200px;
