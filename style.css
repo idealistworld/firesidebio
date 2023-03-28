@@ -221,7 +221,8 @@ a:hover {
     color: #f1f1f1;
     font-size: 1.4vw;
     text-decoration: none;
-    padding: 60px 0px;
+    padding-top: 75px;
+    padding-bottom: 200px;
 }
 
 #contact-us:hover {
