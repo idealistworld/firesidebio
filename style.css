@@ -10,6 +10,14 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+#header-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 3;
+}
+
 #fancy-story {
     background: radial-gradient(89.53% 2108.04% at 92.4% 50.82%, #FF1E1E 0%, #F19239 14.06%, #FF7D05 64.58%, #F13939 100%)
         /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
@@ -102,7 +110,6 @@ a:hover {
     color: rgb(220, 220, 220);
     margin-top: 5vh;
 }
-
 
 #paragraph-container {
     width: 100%;
@@ -277,14 +284,6 @@ input:hover {
     margin-top: 30px;
 }
 
-#header-section {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 3;
-}
-
 @media (max-device-width: 600px) {
     #header-logo {
         height: 200px;
@@ -387,7 +386,7 @@ input:hover {
 
     #events {
         font-size: 50px;
-        margin-right: 40px;
+        margin-right: 0px;
         color: rgb(209, 209, 209);
         font-weight: 300;
         z-index: 3;
