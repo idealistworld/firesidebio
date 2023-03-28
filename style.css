@@ -97,7 +97,7 @@ a:hover {
 
 #speaker-paragraph-text {
     font-size: 2vw;
-    font-weight: 200;
+    font-weight: 300;
     width: 60%;
     color: rgb(220, 220, 220);
     margin-top: 0;
@@ -105,7 +105,7 @@ a:hover {
 
 #paragraph-text {
     font-size: 2vw;
-    font-weight: 200;
+    font-weight: 300;
     width: 60%;
     color: rgb(220, 220, 220);
     margin-top: 5vh;
@@ -321,7 +321,7 @@ input:hover {
 
     #paragraph-text {
         font-size: 4vw;
-        font-weight: 200;
+        font-weight: 300;
         width: 80%;
         color: white;
         margin-top: 5vh;
@@ -386,7 +386,7 @@ input:hover {
 
     #events {
         font-size: 50px;
-        margin-right: 0px;
+        margin-right: 50px;
         color: rgb(209, 209, 209);
         font-weight: 300;
         z-index: 3;
@@ -454,11 +454,10 @@ input:hover {
 
     #speaker-paragraph-text {
         font-size: 4vw;
-        font-weight: 200;
+        font-weight: 300;
         width: 80%;
         color: rgb(220, 220, 220);
         margin-top: 0;
-        font-weight: 200;
     }
 
     #past-speaker-gallery {
