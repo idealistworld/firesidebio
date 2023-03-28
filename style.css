@@ -7,15 +7,16 @@ body {
     -o-background-size: cover;
     background-size: cover;
     margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
 }
 
 #header-section {
-    width: 99%;
+    z-index: 3;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 3;
 }
 
 #fancy-story {
