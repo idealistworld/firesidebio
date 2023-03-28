@@ -82,6 +82,8 @@ a:hover {
     color: white;
     overflow-y: scroll;
     flex-direction: column;
+    position: fixed;
+
 }
 
 #title-text {
@@ -310,6 +312,7 @@ input:hover {
         align-items: center;
         text-align: center;
         color: white;
+        position: fixed;
         flex-direction: column;
     }
 
