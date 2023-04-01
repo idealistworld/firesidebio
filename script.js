@@ -1,5 +1,5 @@
 var link = document.getElementById("events-link");
-document.onload = link.setAttribute("href", "https://partiful.com/e/PaNxD3o0fBrAgx3pS0AK");
+document.onload = link.setAttribute("href", "https://partiful.com/e/nyEiVAgXPs3xj3ZQtCAJ");
 
 function changestuff() {
     document.getElementById("title-text").innerHTML = "Application <span id = 'fancy-story' style = 'display: block'>Submitted!</span>";
