@@ -217,8 +217,8 @@ a:hover {
 
 #contact-us {
     text-align: center;
-    font-weight: 100;
-    color: #f1f1f1;
+    font-weight: 200;
+    color: #FFFFFF;
     font-size: 1.4vw;
     text-decoration: none;
     padding-top: 75px;
@@ -232,12 +232,12 @@ a:hover {
 
 #contact-text {
     text-decoration: none;
-    color: #f1f1f1;
+    color: #FFFFFF;
 }
 
 #contact-text:visited {
     text-decoration: none;
-    color: #f1f1f1;
+    color: #FFFFFF;
 }
 
 .text-input {
