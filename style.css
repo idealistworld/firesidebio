@@ -333,10 +333,10 @@ input:hover {
 }
 
 .event-photo {
-  height: 210;
-  width: 300;
-  margin: 10px 20px;
-  display: inline;
+    height: 210;
+    width: 300;
+    margin: 10px 20px;
+    display: inline;
 }
 
 .pastEventsContainer {
@@ -349,6 +349,18 @@ input:hover {
 }
 
 @media (max-device-width: 600px) {
+
+    .event-photo {
+        height: 462;
+        width: 675;
+        margin: 30px 20px;
+        display: inline;
+    }
+
+    #pastEventsTitle {
+        font-size: 120px;
+    }
+
     #header-logo {
         height: 200px;
         width: 300px;
