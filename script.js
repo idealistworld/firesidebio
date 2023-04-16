@@ -1,11 +1,12 @@
 var link = document.getElementById("events-link");
-document.onload = link.setAttribute("href", "https://partiful.com/e/XfPVeP7dtBhBVgLyZtjo");
+document.onload = link.setAttribute("href", "https://www.fireside.bio/pastevents");
 
 function changestuff() {
     document.getElementById("title-text").innerHTML = "Application <span id = 'fancy-story' style = 'display: block'>Submitted!</span>";
     document.getElementById("title-text").style.marginTop = "30vh";
     document.querySelector(".mobile-buttons").innerHTML = "";
 }
+
 
 function getDateTime() {
 

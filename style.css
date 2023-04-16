@@ -348,7 +348,25 @@ input:hover {
     width: 70%;
 }
 
+.event-title {
+    margin-top: -20px;
+    font-size: 2vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
 @media (max-device-width: 600px) {
+
+    .event-title {
+        margin-top: -20px;
+        font-size: 50px;
+    }    
 
     .event-photo {
         height: 462;
@@ -358,7 +376,7 @@ input:hover {
     }
 
     #pastEventsTitle {
-        font-size: 120px;
+        font-size: 100px;
     }
 
     #header-logo {
