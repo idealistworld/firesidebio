@@ -301,15 +301,15 @@ input:hover {
 }
 
 .advisor-photo {
-    height: 150px;
-    width: 150px;
+    height: 10vw;
+    width: 10vw;
     border-radius: 1000px;
     margin: 0 10px;
-    border: 4px white solid;
+    border: 0.3vw white solid;
 }
 
 .advisor-title {
-    font-size: 20px;
+    font-size: 1.5vw;
     margin-top: 10px;
     margin-bottom: 0;
 }
@@ -318,7 +318,7 @@ input:hover {
     margin-top: 0px;
     width: 150px;
     text-align: start;
-    font-size: 15px;
+    font-size: 1.15vw;
 }
 
 .advisor-content-container {
@@ -326,6 +326,26 @@ input:hover {
     flex-direction: column;
     align-items: start;
     justify-content: center;
+}
+
+#pastEventsTitle {
+    font-size: 5vw;
+}
+
+.event-photo {
+  height: 210;
+  width: 300;
+  margin: 10px 20px;
+  display: inline;
+}
+
+.pastEventsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-wrap: normal;
+    width: 70%;
 }
 
 @media (max-device-width: 600px) {
